@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.doraemon {
+    width: 310px;
+    height: 300px;
+    position: fixed;
+    top: 0;
+    right: 10%;
+}
+
+@media (max-width: 500px) {
+    .text {
+        height: 50vh;
+        overflow: auto;
+        position: relative;
+    }
+
+    .doraemon {
+        position: relative;
+        left: 10%;
+        height: 50vh;
+        bottom: 0;
+    }
+}
